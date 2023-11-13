@@ -1,0 +1,59 @@
+body {
+    font-family: monospace;
+    background: #f2f2f2;
+}
+
+.navbar, .bg-form {
+    background-color: #000;
+}
+
+h5, h6 {
+    font-weight: 300;
+}
+
+.precio {
+    height: 20px;
+    padding-top: 10px;
+}
+
+.descuento {
+    padding-left: 15px;
+    font-size: 24px;
+}
+
+.features, .pricing, .experience, #home {
+    color: #ffffff;
+}
+
+.features:hover, .pricing:hover, .experience:hover, #home:hover {
+    color: #adadad;
+    text-shadow: 2px 2px #770000;
+}
+
+.features:visited, .pricing:visited, .experience:visited, #home:visited {
+    color: #f2f2f2;
+}
+
+#cards {
+    background-color: #000;
+}
+
+.hero-section {
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 1320px;
+    max-width: 100vw;
+    width: 100%;
+    height: 84vh;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-shadow: 3px 3px #000000;
+}
